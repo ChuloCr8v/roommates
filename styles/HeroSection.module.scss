@@ -1,0 +1,30 @@
+ .herosection {
+  background-image: url(../public/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 180%;
+  background-position: top;
+  overflow: hidden;
+ .contentcontainer {
+  padding-bottom: 80px;
+   overflow: hidden ;
+   position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+}
+} 
+
+@media (min-width: 688px) {
+ .herosection {
+   width: 100%;
+   background-size: cover;
+ }
+}
