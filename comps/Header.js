@@ -31,7 +31,7 @@ const Header = () => {
   return(
       <>
     {menuBg && <div className="w-full bg-gray-800 fixed z-50 top-0 left-0 p-3">
-      <div class="logo-container flex justify-between items-center">
+      <div className="logo-container flex justify-between items-center">
       <Logo />
       <SocialIcons />
       </div>

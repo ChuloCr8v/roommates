@@ -9,7 +9,7 @@ const CTA = () => {
        <p className="text-sm text-center " > Signup now to meet thousands of people waiting for you, make new friends and get your perfect match for a rooMMate. </p>
        <button className="bg-red-600 hover:bg-red-400 text-white text-sm rounded-full py-2 px-6 mt-8 text-center" ><Link href="/signup">SIGNUP</Link></button>
         </div>
-        <div className="flex flex-col justify-center items-center" >
+        <div className="flex flex-col justify-center items-center mt-12 " >
         <p className="text-sm text-center "> Already a member? Great! Login now to continue interacting with thousands of other users nationwide. </p>
        <button className="bg-green-600 hover:bg-green-400 text-white text-sm rounded-full py-2 px-6 mt-8 " ><Link href="/login">LOGIN</Link></button>
         </div>
