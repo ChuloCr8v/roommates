@@ -7,7 +7,7 @@ import CTA from '../comps/CTA'
 
 export default function Index() {
   return (
-  <div class="md:flex flex-col justify-around items-center" >
+  <div className="md:flex flex-col justify-around items-center" >
       <HeroSection />
       <About />
       <WhyUs />
